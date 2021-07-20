@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@media (min-width: 700px) and (max-width: 1500px) {
+  body {
+    background: #f1d4ea !important;
+  }
+}
+header {
+  border-radius: 12px;
+  background: rgb(238, 192, 220);
+  box-shadow: 0 2px 3px 0 rgba(74, 74, 74, 0.21);
+  margin-top: 15px;
+}
+
+header div .logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #a2257c;
+  transition: all 0.6s ease-in-out;
+  margin-bottom: 15px;
+}
+
+header div .logo:hover {
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+
+header span.logo_text {
+  font-size: 2em;
+  margin-left: 20px;
+  line-height: 100%;
+  font-family: "Suez One", sans-serif;
+  display: inline-block;
+  position: relative;
+  top: 18px;
+}
+
+header span.logo_text small {
+  font-size: 0.9em;
+  display: block;
+  color: #a7336d;
+}
+
+header .navigation {
+  margin-top: 25px;
+}
+
+header .btn {
+  border: 2px solid rgb(216, 93, 179);
+  background: #dd52a3;
+  color: #f7f3f5;
+}
+
+header .btn:hover {
+  background: rgb(189, 69, 69);
+}
+
+.Igsabe {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #691440;
+  font-family: "Dancing Script", cursive;
+  font-weight: 500;
+}
+
+.cont {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #8b1313;
+}
+.cont2 {
+  text-align: center;
+
+  padding-bottom: 25px;
+  color: #0f0e0e;
+}
+.cont3 {
+  text-align: center;
+
+  padding-bottom: 200px;
+  color: #8a0f57;
+}
+
+#phtrain2 {
+  padding: 15px; /* Расстояние от картинки до рамки */
+  margin-left: 20px;
+  margin-right: 50px; /* Отступ справа */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+.photo3 {
+  margin-left: 50px;
+  border: 8px solid #f7f4f4;
+  border-radius: 2px;
+}
+.nail4 {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+
+  color: #640d3a;
+}
+.square {
+  margin-left: 50px;
+}
+
+.nail5 {
+  text-align: center;
+  padding-top: 15px;
+
+  padding-left: 45px;
+
+  color: #ca0606;
+}
+.nail6 {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 45px;
+
+  color: #830c51;
+}
+.square2 {
+  margin-left: 50px;
+}
+
+.social {
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 35px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+}
+
+.faceb {
+  padding-left: 20px;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+  background: rgb(238, 192, 220);
+  border: 2px solid #f1a6e5;
+  border-bottom: 0;
+  border-radius: 12px 12px 0px 0px;
+  padding: 30px 0;
+}
+footer {
+  width: 90%;
+  padding: 50px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .up-btn,
+footer .social div {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background: #eee;
+  border: 1px solid silver;
+  cursor: pointer;
+  color: #3b3b3b;
+  transition: transform 600ms ease;
+}
+
+footer .up-btn:hover,
+footer .social div:hover {
+  /*эффект при наведении на кнопку что будет поднимать страницу вверх*/
+  transform: translateY(-10px);
+}
+
+footer .social div {
+  display: inline-block; /* чтобы они все в один ряд были*/
+  margin-left: 15px;
+}
